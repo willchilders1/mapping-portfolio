@@ -431,6 +431,7 @@ h6,
 }
 
 .lead {
+  display: none;
   font-size: 1.171875rem;
   font-weight: 300
 }
@@ -730,7 +731,7 @@ pre code {
   position: relative;
   width: 100%;
   padding-right: 15px;
-  padding-left: 15px
+  padding-left: 15px;
 }
 
 .col {
@@ -5550,6 +5551,10 @@ input[type="button"].btn-block {
   color: #fff
 }
 
+.card-fix{
+  margin: 25px;
+}
+
 .card {
   position: relative;
   display: -webkit-box;
@@ -5564,12 +5569,14 @@ input[type="button"].btn-block {
   background-color: #303030;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem
+  border-radius: 0.25rem;
+  bottom: 20px;
 }
 
 .card>hr {
   margin-right: 0;
-  margin-left: 0
+  margin-left: 0;
+
 }
 
 .card>.list-group {
@@ -5599,7 +5606,8 @@ input[type="button"].btn-block {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   min-height: 1px;
-  padding: 1.25rem
+  padding: 1.25rem;
+  bottom: 20px;
 }
 
 .card-title {
