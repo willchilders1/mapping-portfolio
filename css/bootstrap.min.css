@@ -5551,10 +5551,6 @@ input[type="button"].btn-block {
   color: #fff
 }
 
-.card-fix{
-  margin: 25px;
-}
-
 .card {
   position: relative;
   display: -webkit-box;
@@ -5672,7 +5668,7 @@ input[type="button"].btn-block {
   left: 0;
   padding: 1.25rem;
   border-radius: calc(0.25rem - 1px);
-  
+
 }
 
 .card-img,
